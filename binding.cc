@@ -882,7 +882,7 @@ void Environment(const v8::FunctionCallbackInfo<Value>& args) {
     Nan::MaybeLocal<v8::Object> maybeInstance;
     v8::Local<v8::Object> instance;
 
-    v8::Local<v8::Value> argv[] = {};
+    v8::Local<v8::Value> argv[999] = {};
     maybeInstance = Nan::NewInstance(constructor->GetFunction(), 0, argv);
 
     if (maybeInstance.IsEmpty()) {
