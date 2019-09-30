@@ -49,8 +49,8 @@
     "mocha": "^3.4.2"
   },
   "libstorj": {
-    "basePath": "./libstorj-2.0.0-beta2",
-    "baseUrl": "https://github.com/Storj/libstorj/releases/download/v2.0.0-beta2",
+    "basePath": "./libstorj-2.0.0-beta3",
+    "baseUrl": "https://github.com/Storj/libstorj/releases/download/v2.0.0-beta3",
     "releases": [
       {
         "arch": "arm",
@@ -79,7 +79,7 @@
       {
         "arch": "x64",
         "platform": "win32",
-        "filename": "libstorj-2.0.0-beta2-win32.zip",
+        "filename": "libstorj-2.0.0-beta3-win32.zip",
         "checksum": "2eabe3924a820837fdb27205e376b65cf6c509d4ee238838b846edbd7f07dc30"
       }
     ]
